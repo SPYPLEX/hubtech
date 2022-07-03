@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: skyblue;
+}
+
+h2{
+	text-align: center;
+	font-size: 25px;
+	font-family: poppins;
+	font-weight: bold;
+	color:#ff264a;
+}
+
+nav{
+	width: 100%;
+}
+
+ul li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 17px;
+	padding: 8px 10px;
+	display: inline;
+	float: right;
+}
+
+li a:hover{
+	background-color: red;
+	color:wheat;
+	transition:1s;
+}
+
+footer{
+	text-align: center;
+	font-size: 18px;
+	padding: 10 20px;
+	font-family: monospace;
+	background-color: gray;
+	color: whitesmoke;
+}
